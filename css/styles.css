@@ -1,13 +1,12 @@
 /*-------------------------*\
            $colors
-/*-------------------------*\
+\*-------------------------*/
 /*
 * Branding Colors
 */
-table tr:hover {
-  background-color: #dbd879;
-}
-
+/*---------------------*\
+        $MIXINS
+\*---------------------*/
 /*----------------------*\
         $BOTONES
 \*----------------------*/
@@ -35,6 +34,19 @@ table tr:hover {
 /*--------------------*\
         $GRIDS
 \*--------------------*/
+section {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #bfbfbf;
+  padding: 24px;
+}
+
+.header-container {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #5bb75b;
+}
+
 /*----------------------*\
         $UTILITIES
 \*----------------------*/

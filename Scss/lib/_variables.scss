@@ -1,6 +1,6 @@
 /*-------------------------*\
            $colors
-/*-------------------------*\
+\*-------------------------*/
 /*
 * Branding Colors
 */
@@ -15,10 +15,10 @@ $color-lightgrey: #bfbfbf;
 $color-white: rgb(255,255,255);   
 
 //Colores de Alerta
-$color-alerta:rgb(252,228,207);
+$color-alert:rgb(252,228,207);
 $color-error:rgb(218,79,73);
 $color-info:rgb(66,184,221);
-$color-alerta:rgb(91,183,91);
+$color-success:rgb(91,183,91);
 
 //Tipografía
 $basefont: 'Quicksand', sans-serif;
@@ -30,4 +30,6 @@ $buttonbackgroundcolor: $color-brand;
 $buttonfontsize: $basefontsize * 1.5;
 
 //Constantes
-$border-radius: 3px;
+$border-radius: 3px;   
+$padding: 24px; 
+$page-max-width: 300px;

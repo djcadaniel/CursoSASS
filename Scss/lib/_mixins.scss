@@ -1,0 +1,8 @@
+/*---------------------*\
+        $MIXINS
+\*---------------------*/
+
+@mixin max-width($maxwidth:500px) {
+    max-width: $maxwidth;
+    margin: 0 auto;
+}

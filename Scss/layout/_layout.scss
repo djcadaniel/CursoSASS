@@ -1,0 +1,9 @@
+section{
+    @include max-width;
+    background-color: $color-lightgrey;
+    padding: $padding;
+}
+.header-container{
+    @include max-width($page-max-width);
+    background-color: $color-success;
+}
