@@ -35,16 +35,37 @@
         $GRIDS
 \*--------------------*/
 section {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
-  background-color: #bfbfbf;
+  background-color: blue;
   padding: 24px;
+}
+@media only screen and (min-width: 820px) {
+  section {
+    background-color: red;
+  }
 }
 
 .header-container {
   max-width: 300px;
   margin: 0 auto;
   background-color: #5bb75b;
+}
+
+.content-tarjeta {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.tarjeta3, .tarjeta2, .tarjeta {
+  position: relative;
+  display: inline-block;
+  padding: 24px;
+  width: 29%;
+  text-align: center;
+  background-color: #25b0b6;
 }
 
 /*----------------------*\

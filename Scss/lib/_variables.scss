@@ -6,22 +6,27 @@
 */
 
 $color-brand: #ea83ee;
-$color-secondary: rgb(219,216,121);
+$color-secondary: rgb(219, 216, 121);
 
-$color-black: rgb(0,0,0);
-$color-darkgrey:#4d4d4d;
+$color-black: rgb(0, 0, 0);
 $color-grey: #737373;
+$color-darkgrey:lighten($color-grey, 25%);
+$color-darkgrey2:darken($color-grey, 25%);
+
+
 $color-lightgrey: #bfbfbf;
-$color-white: rgb(255,255,255);   
+$color-white: rgb(255, 255, 255);
 
 //Colores de Alerta
-$color-alert:rgb(252,228,207);
-$color-error:rgb(218,79,73);
-$color-info:rgb(66,184,221);
-$color-success:rgb(91,183,91);
+$color-alert:rgb(252, 228, 207);
+$color-error:rgb(218, 79, 73);
+$color-invert: invert($color-error);
+$color-info:rgb(66, 184, 221);
+$color-success:rgb(91, 183, 91);
 
 //Tipografía
-$basefont: 'Quicksand', sans-serif;
+$basefont: 'Quicksand',
+sans-serif;
 $basefontsize: 16px;
 
 //Botones
@@ -30,6 +35,6 @@ $buttonbackgroundcolor: $color-brand;
 $buttonfontsize: $basefontsize * 1.5;
 
 //Constantes
-$border-radius: 3px;   
-$padding: 24px; 
+$border-radius: 3px;
+$padding: 24px;
 $page-max-width: 300px;

@@ -2,7 +2,13 @@
         $MIXINS
 \*---------------------*/
 
-@mixin max-width($maxwidth:500px) {
+@mixin max-width($maxwidth:600px) {
     max-width: $maxwidth;
     margin: 0 auto;
+}
+
+@mixin responde-to($width) {
+    @media only screen and(min-width: $width) {
+        @content;
+    }
 }

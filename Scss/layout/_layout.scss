@@ -1,9 +1,43 @@
-section{
+section {
     @include max-width;
-    background-color: $color-lightgrey;
+    background-color: blue;
+
+    @include responde-to(820px) {
+        background-color: red;
+    }
+
     padding: $padding;
 }
-.header-container{
+
+.header-container {
     @include max-width($page-max-width);
     background-color: $color-success;
+}
+
+.content-tarjeta {
+    position: relative;
+    width: 100%;
+    background-color: $color-black;
+    color: $color-white;
+}
+
+%tar {
+    position: relative;
+    display: inline-block;
+    padding: $padding;
+    width: 29%;
+    text-align: center;
+    background-color: $color-invert;
+}
+
+.tarjeta {
+    @extend %tar;
+}
+
+.tarjeta2 {
+    @extend %tar;
+}
+
+.tarjeta3 {
+    @extend %tar;
 }
