@@ -68,6 +68,14 @@ section {
   background-color: #25b0b6;
 }
 
+.tarjeta__title {
+  font-size: 40px;
+}
+
+.tarjeta__texto {
+  font-size: 24px;
+}
+
 /*----------------------*\
         $UTILITIES
 \*----------------------*/

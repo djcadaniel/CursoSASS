@@ -41,3 +41,11 @@ section {
 .tarjeta3 {
     @extend %tar;
 }
+
+.tarjeta__title {
+    font-size: suma(20px, 20px)
+}
+
+.tarjeta__texto {
+    font-size: map-get($fs, big)
+}
