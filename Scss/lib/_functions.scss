@@ -1,3 +1,39 @@
 @function suma($uno, $dos) {
     @return $uno+$dos
 }
+
+
+// lista de valores
+$font-weights: normal bold italic;
+
+@each $font in ($font-weights) {
+    .#{$font} {
+        font-weight: $font;
+    }
+}
+
+//ciclo for
+@for $i from 1 to 5 {
+    .class {
+        &:before {
+            content: "#{$i}";
+        }
+    }
+}
+
+@for $i from 1 to 5 {
+    .class-#{$i} {
+        &:before {
+            content: "#{$i}";
+        }
+    }
+}
+
+//condicionales
+$background-color : black;
+
+@if $background-color==black {
+    p {
+        text-color: white;
+    }
+}
